@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vijaya Food Fest 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fff8e1;
+      color: #4e342e;
+    }
+    header {
+      background: #ff7043;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .highlight {
+      background: #ffe0b2;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      color: #e64a19;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .gallery img {
+      width: 200px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Lightbox styles */
+    .lightbox {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+    .lightbox:target {
+      display: flex;
+    }
+    footer {
+      background: #ffccbc;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vijaya Food Fest & Cooking Competition</h1>
+    <p>Organized by Principal, Staff, and Students of Vijaya College</p>
+  </header>
+
+  <div class="section">
+    <div class="highlight">
+      <h2>Event Details</h2>
+      <p><strong>Date:</strong> 15th April 2025</p>
+      <p><strong>Time:</strong> 9:00 AM – 1:00 PM</p>
+      <p><strong>Venue:</strong> Vijaya College Campus</p>
+    </div>
+
+    <div class="highlight">
+      <h2>What to Expect</h2>
+      <ul>
+        <li>Exciting food stalls with a variety of dishes</li>
+        <li>Live cooking competition among talented participants</li>
+        <li>Fun and festive atmosphere for all students and staff</li>
+      </ul>
+    </div>
+
+    <div class="highlight">
+      <h2>STALLS</h2>
+      <div class="gallery">
+        <a href="#img1"><img src="https://via.placeholder.com/200x150?text=Dish+1" alt="Dish 1"></a>
+        <a href="#img2"><img src="https://via.placeholder.com/200x150?text=Dish+2" alt="Dish 2"></a>
+        <a href="#img3"><img src="https://via.placeholder.com/200x150?text=Stall+1" alt="Stall 1"></a>
+      </div>
+
+      <!-- Lightbox images -->
+      <div class="lightbox" id="img1">
+        <a href="#"><img src="https://via.placeholder.com/800x600?text=Dish+1+Full" alt="Dish 1 Full Size"></a>
+      </div>
+      <div class="lightbox" id="img2">
+        <a href="#"><img src="https://via.placeholder.com/800x600?text=Dish+2+Full" alt="Dish 2 Full Size"></a>
+      </div>
+      <div class="lightbox" id="img3">
+        <a href="#"><img src="https://via.placeholder.com/800x600?text=Stall+1+Full" alt="Stall 1 Full Size"></a>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <h2>Registration</h2>
+      <p>No registration required — just walk in and enjoy!</p>
+    </div>
+  </div>
+
+  <footer>
+    Contact details coming soon. Stay tuned!
+  </footer>
+</body>
+</html>
